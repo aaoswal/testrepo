@@ -4,7 +4,7 @@ title: "(short issue description)"
 labels: [feature-request, needs-triage]
 body: 
   - type: checkboxes
-    id: acknowledgment
+    id: community-ack
     attributes:
       label: |
         ## Community Note
@@ -12,7 +12,7 @@ body:
         2. Please do not leave "+1" or "me too" comments, they generate extra noise for issue followers and do not help prioritize the request
         3. If you are interested in working on this issue, please leave a comment
       options:
-        - label: I may be able to implement this feature request
+        - label: Acknowledge
           required: false
 
   - type: textarea
