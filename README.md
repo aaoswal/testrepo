@@ -141,9 +141,9 @@ See [Debugging](docs/debugging.md)
 Use the following sources for information:
 
 * [Check api and developer guides.](https://docs.aws.amazon.com/sdk-for-kotlin/index.html)
-* Check for similar [issues](.issues) already opened.
+* Check for similar [issues](https://github.com/awslabs/aws-sdk-kotlin/issues/new/choose) already opened.
 
-If you still can’t find a solution to your problem open an [issue](.issues) or a [discussion](.discussions)
+If you still can’t find a solution to your problem open an [issue](https://github.com/awslabs/aws-sdk-kotlin/issues/new/choose) or a [discussion](https://github.com/awslabs/aws-sdk-kotlin/discussions/new)
 
 ## Security
 
