@@ -1,16 +1,26 @@
 name: "\U0001F4AC Questions/Help"
-description: Create a new issue. If you don't know which type to choose, choose this one.
+description: Ask a question! If you don't know which type to choose, choose this one.
 title: "(short issue description)"
 labels: [guidance, needs-triage]
 body:
+- type: markdown 
+    attributes: 
+      value: |
+        ## Important Information
+        Please make sure you have gone through the:
+          - Existing Issues
+          - Official Docs
+          - AWS Forums
+        before filing a new issue! If your question was already asked, but the answer does not satisfy your curiosity, prefer re-opening the existing issue to ask for further clarification, instead of filing a new issue.
+
   - type: textarea
-    id: description
+    id: question
     attributes:
-      label: Describe the issue
-      description: A clear and concise description of the issue.
+      label: The Question
+      description: Ask your question here. Include any details relevant. Make sure you are not falling prey to the [X/Y problem](http://xyproblem.info)!
     validations:
       required: true
-      
+
   - type: textarea
     id: reproduction
     attributes:
@@ -29,22 +39,21 @@ body:
       description: |
         Tell us what happens instead of the expected behavior.
         Include full errors, uncaught exceptions, stack traces, and relevant logs.
-        To turn on SDK logging, follow instructions here: https://github.com/awslabs/aws-sdk-kotlin/tree/main/docs/debugging.md
-        If service responses are relevant, please include wirelogs (after removing any sensitive information!).
     validations:
       required: true
 
   - type: input
-    id: kotlin-sdk-version
+    id: dotnet-sdk-version
     attributes:
-      label: AWS Kotlin SDK version used
+      label: AWS .NET SDK and Package version used
+      description: Information from Nuget Packages
     validations:
       required: true
 
   - type: input
     id: platform-used
     attributes:
-      label: Platform (JVM/JS/Native)
+      label: Targeted .NET Platform
     validations:
       required: true
 
@@ -52,5 +61,6 @@ body:
     id: operating-system
     attributes:
       label: Operating System and version
+      description: "Example: Windows 10, OSX Mojave, Ubuntu, AmazonLinux, etc."
     validations:
       required: true
