@@ -2,8 +2,8 @@ name: "\U0001F4AC Questions/Help"
 description: Ask a question! If you don't know which type to choose, choose this one.
 title: "(short issue description)"
 labels: [guidance, needs-triage]
-body:
-- type: markdown 
+body: 
+  - type: markdown 
     attributes: 
       value: |
         ## Important Information
