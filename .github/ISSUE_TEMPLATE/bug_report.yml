@@ -1,5 +1,5 @@
 name: "\U0001F41B Bug Report"
-description: "Something isn't working as expected 🤔"
+description: "Report a bug or problem with the code."
 title: "(short issue description)"
 labels: [bug, needs-triage]
 body:
@@ -27,8 +27,6 @@ body:
       description: |
         Tell us what happens instead of the expected behavior.
         Include full errors, uncaught exceptions, stack traces, and relevant logs.
-        To turn on SDK logging, follow instructions here: https://github.com/awslabs/aws-sdk-kotlin/tree/main/docs/debugging.md
-        If service responses are relevant, please include wirelogs (after removing any sensitive information!).
     validations:
         required: true
 
@@ -48,7 +46,8 @@ body:
     attributes:
       label: Possible Solution
       description: |
-        Suggest a fix/reason for the bug
+        Suggest a fix/reason for the bug.
+        If you have any ideas for a solution, feel free to describe them here. Otherwise, a solution will be linked in the comments once finished
     validations:
       required: false
 
@@ -63,16 +62,17 @@ body:
       required: false
 
   - type: input
-    id: kotlin-sdk-version
+    id: dotnet-sdk-version
     attributes:
-      label: AWS Kotlin SDK version used
+      label: AWS .NET SDK and Package version used
+      description: Information from Nuget Packages
     validations:
       required: true
 
   - type: input
     id: platform-used
     attributes:
-      label: Platform (JVM/JS/Native)
+      label: Targeted .NET Platform
     validations:
       required: true
 
@@ -80,5 +80,14 @@ body:
     id: operating-system
     attributes:
       label: Operating System and version
+      description: "Example: Windows 10, OSX Mojave, Ubuntu, AmazonLinux, etc."
     validations:
       required: true
+
+  - type: checkboxes
+    id: acknowledgment
+    attributes:
+      label: Acknowledge
+      options:
+        - label: I can/would-like-to implement a fix for this problem myself
+          required: false
