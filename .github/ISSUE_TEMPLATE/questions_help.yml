@@ -7,11 +7,7 @@ body:
     attributes: 
       value: |
         ## Important Information
-        Please make sure you have gone through the:
-          - Existing Issues
-          - Official Docs
-          - AWS Forums
-        before filing a new issue! If your question was already asked, but the answer does not satisfy your curiosity, prefer re-opening the existing issue to ask for further clarification, instead of filing a new issue.
+        Please make sure you have gone through the <b>Existing Issues, Official Docs and AWS Forums</b> before filing a new issue! If your question was already asked, but the answer does not satisfy your curiosity, prefer re-opening the existing issue to ask for further clarification, instead of filing a new issue.
 
   - type: textarea
     id: question
