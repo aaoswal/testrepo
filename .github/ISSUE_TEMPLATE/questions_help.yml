@@ -13,7 +13,7 @@ body:
     id: question
     attributes:
       label: The Question
-      description: Ask your question here. Include any details relevant. Make sure you are not falling prey to the [X/Y problem](http://xyproblem.info)!
+      description: Ask your question here. Include any relevant details. Make sure you are not falling prey to the [X/Y problem](http://xyproblem.info)!
     validations:
       required: true
 
