@@ -38,11 +38,11 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: dotnet-sdk-version
     attributes:
       label: AWS .NET SDK and Package version used
-      description: Information from Nuget Packages
+      description: Information from NuGet Packages
     validations:
       required: true
 
