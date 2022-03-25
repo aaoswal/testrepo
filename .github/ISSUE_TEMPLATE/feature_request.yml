@@ -73,11 +73,11 @@ body:
         - label: This feature might incur a breaking change
           required: false
 
-  - type: input
+  - type: textarea
     id: dotnet-sdk-version
     attributes:
-      label: AWS .NET SDK and Package version used
-      description: Information from Nuget Packages
+      label: AWS .NET SDK and/or Package version used
+      description: Information from NuGet Packages
     validations:
       required: true
 
@@ -85,6 +85,7 @@ body:
     id: platform-used
     attributes:
       label: Targeted .NET Platform
+      description: "Example: .NET Framework 4.7, .NET Core 3.1, .NET 6, etc."
     validations:
       required: true
 
