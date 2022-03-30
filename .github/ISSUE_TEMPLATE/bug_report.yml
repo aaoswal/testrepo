@@ -18,7 +18,7 @@ body:
       label: Expected behavior
       description: |
         Tell us what should happen.
-      placeholder: Expected Behavior
+      placeholder: Expected behavior
     validations:
       required: true
 
@@ -30,7 +30,7 @@ body:
         Tell us what happens instead of the expected behavior.
         Include full errors, uncaught exceptions, stack traces, and relevant logs.
         For more info on logging, please see [here](http://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/net-dg-config-other.html)
-      placeholder: Current Behavior
+      placeholder: Current behavior
     validations:
         required: true
 
