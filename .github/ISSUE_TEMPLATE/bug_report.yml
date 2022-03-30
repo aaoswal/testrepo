@@ -72,7 +72,9 @@ body:
     id: dotnet-sdk-version
     attributes:
       label: AWS .NET SDK and/or Package version used
-      description: Information from NuGet Packages
+      description: |
+        NuGet Packages used
+        Example: AWSSDK.S3 3.7.8.13
       placeholder: AWSSDK.S3 3.7.8.13
     validations:
       required: true
