@@ -73,6 +73,7 @@ body:
     attributes:
       label: AWS .NET SDK and/or Package version used
       description: Information from NuGet Packages
+      placeholder: NuGet Packages
     validations:
       required: true
 
