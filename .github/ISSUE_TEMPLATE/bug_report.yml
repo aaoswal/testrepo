@@ -8,6 +8,7 @@ body:
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
+      placeholder: Description
     validations:
       required: true
 
@@ -17,6 +18,7 @@ body:
       label: Expected behavior
       description: |
         Tell us what should happen.
+      placeholder: Expected Behavior
     validations:
       required: true
 
@@ -28,6 +30,7 @@ body:
         Tell us what happens instead of the expected behavior.
         Include full errors, uncaught exceptions, stack traces, and relevant logs.
         For more info on logging, please see [here](http://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/net-dg-config-other.html)
+      placeholder: Current Behavior
     validations:
         required: true
 
@@ -39,6 +42,7 @@ body:
         Provide a self-contained, concise snippet of code that can be used to reproduce the issue.
         For more complex issues provide a repo with the smallest sample that reproduces the bug.
         Avoid including business logic or unrelated code, it makes diagnosis more difficult.
+      placeholder: Reproduction Steps
     validations:
       required: true
 
@@ -49,6 +53,7 @@ body:
       description: |
         Suggest a fix/reason for the bug.
         If you have any ideas for a solution, feel free to describe them here. Otherwise, a solution will be linked in the comments once finished
+      placeholder: Possible Solution
     validations:
       required: false
 
@@ -59,6 +64,7 @@ body:
       description: |
         How has this issue affected you? What are you trying to accomplish?
         Providing context helps us come up with a solution that is most useful in the real world.
+      placeholder: Context
     validations:
       required: false
 
